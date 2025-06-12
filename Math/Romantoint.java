@@ -1,4 +1,4 @@
-class Solution {
+class Solution1 {
   public int value(char ch) {
         switch (ch) {
             case 'I': return 1;
@@ -30,7 +30,7 @@ class Solution {
         }
     
     public static void main(String[] args){
-        Solution sl = new Solution();
+        Solution1 sl = new Solution1();
         sl.romanToInt("III");
         sl.romanToInt("LVIII");
         sl.romanToInt("MCMXCIV");
